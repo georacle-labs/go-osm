@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"path"
 
-	"go-osm/geometry"
+	"github.com/georacleapi/go-osm/geometry"
 )
 
 // ReverseGeocodeQuery represents a Nominatim reverse geocode query

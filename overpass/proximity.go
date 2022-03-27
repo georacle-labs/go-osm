@@ -1,8 +1,9 @@
 package overpass
 
 import (
-	geo "go-osm/geometry"
 	"math"
+
+	geo "github.com/georacleapi/go-osm/geometry"
 )
 
 // Proximity represents a proximity query

@@ -3,11 +3,12 @@ package overpass
 import (
 	"bytes"
 	"encoding/json"
-	"go-osm/geometry"
 	"io/ioutil"
 	"log"
 	"net/http"
 	"time"
+
+	"github.com/georacleapi/go-osm/geometry"
 )
 
 // Response represents an overpass query response

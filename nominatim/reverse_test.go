@@ -1,9 +1,10 @@
 package nominatim
 
 import (
-	"go-osm/geometry"
 	"strings"
 	"testing"
+
+	"github.com/georacleapi/go-osm/geometry"
 )
 
 var TestPoint = geometry.Point{Lat: 51.5233879, Lon: -0.1582367}

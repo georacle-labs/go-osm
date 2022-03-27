@@ -1,8 +1,9 @@
 package overpass
 
 import (
-	"go-osm/geometry"
 	"testing"
+
+	"github.com/georacleapi/go-osm/geometry"
 )
 
 func TestValidProximity(t *testing.T) {
