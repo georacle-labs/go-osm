@@ -8,13 +8,13 @@ import (
 
 // GeocodeQuery represents a Nominatim geocode query
 type GeocodeQuery struct {
-	Address    string `json:"address,omitempty" form:"address"`
-	Street     string `json:"street,omitempty" form:"street"`
-	City       string `json:"city,omitempty" form:"city"`
-	County     string `json:"county,omitempty" form:"county"`
-	State      string `json:"state,omitempty" form:"state"`
-	Country    string `json:"country,omitempty" form:"country"`
-	Postalcode string `json:"postalcode,omitempty" form:"postalcode"`
+	Address    string `json:"address"`
+	Street     string `json:"street"`
+	City       string `json:"city"`
+	County     string `json:"county"`
+	State      string `json:"state"`
+	Country    string `json:"country"`
+	Postalcode string `json:"postalcode"`
 }
 
 // Valid checks for a valid geocode query

@@ -7,7 +7,7 @@ import (
 	"time"
 )
 
-// Response respresents a Nominatim query response
+// Response represents a Nominatim query response
 type Response struct {
 	PlaceID     int64             `json:"place_id"`
 	Licence     string            `json:"licence"`
