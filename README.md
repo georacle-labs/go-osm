@@ -4,6 +4,11 @@
 
 # go-osm
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/georacleapi/go-osm.svg)](https://pkg.go.dev/github.com/georacleapi/go-osm)
+[![Go Report Card](https://goreportcard.com/badge/github.com/georacleapi/go-osm)](https://goreportcard.com/report/github.com/georacleapi/go-osm)
+[![CircleCI](https://circleci.com/gh/georacleapi/go-osm/tree/main.svg?style=shield)](https://circleci.com/gh/georacleapi/go-osm/tree/main)
+[![Discord](https://img.shields.io/badge/Georacle-%237289DA.svg?style=flat&logo=discord&logoColor=white)](https://dsc.gg/georacle)
+
 The Go Client for [OpenStreetMap](https://www.openstreetmap.org/).
 
 This package provides an open source framework for **location search** and **geocoding** using the OpenStreetMap dataset.
