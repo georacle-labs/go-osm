@@ -18,11 +18,12 @@ func (p *Proximity) Valid() bool {
 	return p.Radius > 0
 }
 
-// BBox constructs a bounding box around a reference point
-func (p *Proximity) BBox() *BBox {
+// BuildQuery constructs a proximity query
+func (p *Proximity) BuildQuery() (string, error) {
 	lat := p.Lat * math.Pi / 180 // radians
 	lon := p.Lon * math.Pi / 180 // radians
 
+	// construct a bounding box around the ref point
 	rad := p.Radius / geo.RadEarth
 	minLon := geo.MinLon
 	maxLon := geo.MaxLon
@@ -53,13 +54,17 @@ func (p *Proximity) BBox() *BBox {
 	b.North = maxLat * 180 / math.Pi
 	b.East = maxLon * 180 / math.Pi
 
-	return b
+	return b.BuildQuery()
 }
 
 // Query makes a proximity query with overpass
 func (p *Proximity) Query(server string) (*Response, error) {
-	bbox := p.BBox()
-	resp, err := bbox.Query(server)
+	query, err := p.BuildQuery()
+	if err != nil {
+		return nil, err
+	}
+
+	resp, err := Overpass(server, []byte(query))
 	if err != nil {
 		return nil, err
 	}

@@ -2,7 +2,7 @@
   <img src="img.png" />
 </p>
 
-# go-osm
+# Go OpenStreetMap
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/georacle-labs/go-osm.svg)](https://pkg.go.dev/github.com/georacle-labs/go-osm)
 [![Go Report Card](https://goreportcard.com/badge/github.com/georacle-labs/go-osm)](https://goreportcard.com/report/github.com/georacle-labs/go-osm)
