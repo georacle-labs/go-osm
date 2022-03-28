@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/georacleapi/go-osm/geometry"
+	"github.com/georacle-labs/go-osm/geometry"
 )
 
 // Response represents an overpass query response

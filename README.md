@@ -4,9 +4,9 @@
 
 # go-osm
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/georacleapi/go-osm.svg)](https://pkg.go.dev/github.com/georacleapi/go-osm)
-[![Go Report Card](https://goreportcard.com/badge/github.com/georacleapi/go-osm)](https://goreportcard.com/report/github.com/georacleapi/go-osm)
-[![CircleCI](https://circleci.com/gh/georacleapi/go-osm/tree/main.svg?style=shield)](https://circleci.com/gh/georacleapi/go-osm/tree/main)
+[![Go Reference](https://pkg.go.dev/badge/github.com/georacle-labs/go-osm.svg)](https://pkg.go.dev/github.com/georacle-labs/go-osm)
+[![Go Report Card](https://goreportcard.com/badge/github.com/georacle-labs/go-osm)](https://goreportcard.com/report/github.com/georacle-labs/go-osm)
+[![CircleCI](https://circleci.com/gh/georacle-labs/go-osm/tree/main.svg?style=shield)](https://circleci.com/gh/georacle-labs/go-osm/tree/main)
 [![Discord](https://img.shields.io/badge/Georacle-%237289DA.svg?style=flat&logo=discord&logoColor=white)](https://dsc.gg/georacle)
 
 The Go Client for [OpenStreetMap](https://www.openstreetmap.org/).
@@ -22,8 +22,8 @@ import (
         "fmt"
         "log"
 
-        "github.com/georacleapi/go-osm/nominatim"
-        "github.com/georacleapi/go-osm/overpass"
+        "github.com/georacle-labs/go-osm/nominatim"
+        "github.com/georacle-labs/go-osm/overpass"
 )
 
 func main() {
@@ -77,4 +77,4 @@ Note: Be sure to merge the latest from "upstream" before making a pull request
 For questions, community help and discussions use one of the following
 
 - [Discord](https://dsc.gg/georacle)
-- [GitHub Issues](https://github.com/georacleapi/go-osm/issues)
+- [GitHub Issues](https://github.com/georacle-labs/go-osm/issues)
